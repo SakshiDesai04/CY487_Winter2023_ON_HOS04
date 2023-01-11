@@ -1,0 +1,28 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "keyVaultName": {
+            "value": "maryoh"
+        },
+        "objectId": {
+            "value": "5406062f-19f4-4863-9860-98195d765ec5"
+        },
+        "keysPermissions": {
+            "value": [
+                "list"
+            ]
+        },
+        "secretsPermissions": {
+            "value": [
+                "list"
+            ]
+        },
+        "secretName": {
+            "value": "dog"
+        },
+        "secretValue": {
+            "value": "<secret-name>"
+        }
+    }
+}
